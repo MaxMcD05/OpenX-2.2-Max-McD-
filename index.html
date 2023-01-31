@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Cryptography</title>
+</head>
+<body>
+
+<h4 style="background-color:LightBlue;">Cryptography</h4>
+<p>Max's OpenX - 2.2</p>
+<img src="http://highschool.spsd.org/crypt/index.html" alt="Encryption game">
+
+<br>
+</body>
+
+<br>
+<h4 style="background-color:LightBlue;">What It Is:</h4>
+Cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages.
+<h4 style="background-color:LightBlue;">How it Works:</h4>
+Cryptography relies on the use of encyption to scramble the contents of a message where they can later be un-scrambled and processed.<br><br>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210224193442/fgfdgrfgrf12.png" alt="Encryption image">
+
+<h4 style="background-color:LightBlue;">Who Uses It:</h4>
+Every Computer when trying to communicate privately. This could be passwords, emails, purchasing information, billing adresses.
+</video>
+
+<h4 style="background-color:LightBlue;">Are there Different types?</h4>
+Symmetric Key Cryptography (SKC): Uses a single key for both encryption and decryption<br>
+Asymmetric Key Cryptography (AKC): Uses one key for encryption and another for decryption (They are mathematically related; however, one cannot infer one key, specifically the private key knowing the other, the public key.)<br><br>
+Hash Functions: Uses a one-way mathematical transformation that is hard to reverse.<br><br>
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/encryption-algorithms-what-is-cryptography-edureka-768x352.png" alt="Different Types of Encryption">
+
+<h4 style="background-color:LightBlue;">Symmetric Key Cryptography(SKC):</h4>
+SKC is essentially the concept of Ceasars cypher which is sending a message that that the recipiant already has an identicle key for. For Example: if the key instructs the recipient to count 5 letters further for each letter in order to discramble the message. The problem with this is it is fairly easy to crack. There are only 26 combinations that these letters in this order could be. To solve this, keys instruct a different amount of numbers to rotate for each character. This would take lifetimes for a person to crack as billions of combinations must now be tried. However, computers can still complete these combinations within minutes. This is why computers use 264-Bit keys that even an army of computers can not crack in centuries. It is important to understand that technology has not made these keys more difficult to crack but instead exponentially increases the amount of guesses required to crack these codes. In the years to come, as the processors of computers get more and more advanced, these 264-Bit keys may not hold up. But that is just for regular computers, Quantum Computers already pose a massive threat.<br>
+<img src="https://miro.medium.com/max/720/0*gLfaS8bG3bhkVlWa.webp" alt="SKC">
+
+<h4 style="background-color:LightBlue;">Asymmetric Key Cryptography(AKC)</h4> 
+Asymmetric key cryptography, also known as public-key cryptography, uses two different keys (public and private). The public key is for the sender who encrypts data while the recipeint uses the private key to decrypt messages. Since the public key is public, The owner(s) of the private key are the only ones who can decrypt the messages. This makes it possible to securely exchange messages without a prior shared secret.
+<img src="https://www.ssl2buy.com/wiki/wp-content/uploads/2015/12/Symmetric-Encryption.png" alt="AKC">
+
+
+<h4 style="background-color:LightBlue;">The Issue with Quantum Computers:</h4>
+I am not going to be able to explain Quantum Computing in this section so instead I will cover the basics and provide a link to Liam's presentation at the bottom. Long story short, Quantum computing operates probablistically and simultaneously to preform vastly complex computations which a normal computer can't. Using Shor's Algorythym, Quantum Computing is a Dangerous threat to internet security and puts into question the future of Cryptography.
+<img src="https://www.volkswagenag.com/content/dam/online-kommunikation/brands/corporate/world/presence/stories/2019/11/where-is-the-electron-and-how-many-of-them/Website_QuantenComputer_01_EN_1163.png" alt="QC">
+
+
+<h4 style="background-color:LightBlue;">Shor's Algorythm:</h4> 
+If the goal is to "guess" the correct combination similar to a regular lock, Shor's Algorythm is by far the best way to go, assuming you have a Quantum Computer. Shor's algorythm is a function that turns any guess into a significantly more likely combination. It does this by taking advantage of a principle in math that any number multiplied by itself enough times will eventually equal a factor of the "correct" number + 1. The formula for conversion still takes a tremendous amount of time despite this improved process which can only be handled by a quantum computer.
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bkN-PgZ8DnC7-bCihS-Isg.png" alt="Shor's">
+
+<h4 style="background-color:LightBlue;">What This Means and Why is it Important?</h4> 
+The ability to store and share data privetly is important to every user of the digital world. The volnurability of data encryption is not particularly threatened at the moment but in time, that will change. This could lead to a change in reliance on the web because of the new challenges of security. Currently, researches are improving and searching for other methods that are specifically designed to counter the use of quantum computing but even if a method was developed that used a completly seperate type of cypher uncrackable by quantum computing, the likelyhood of all internet users having access to these new computers is impossible. This situation will create an entirly different digital divide.
+<img src="https://www.nj.com/resizer/iKDXe8kDg8j_NIMw_N6Q-wssCC0=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/QY6J6C7ETNAMHNOK6UWPFERKZI.jpg" alt="Digital Divide">
